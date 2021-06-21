@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sabin.projectkcal">
+    package="com.blogging.profesia.blogapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.blogging.profesia.blogapp.MainActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -25,20 +25,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Login.LoginActivity"
+            android:name="com.blogging.profesia.blogapp.Login.LoginActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Login.RegisterActivity"
+            android:name="com.blogging.profesia.blogapp.Login.RegisterActivity"
             android:configChanges="orientation"
             android:screenOrientation="portrait" />
-        <activity android:name=".SetupActivity" />
+        <activity android:name="com.blogging.profesia.blogapp.SetupActivity" />
         <activity
             android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
             android:theme="@style/Base.Theme.AppCompat" /> <!-- optional (needed if default theme has no action bar) -->
 
-        <activity android:name=".NewPostActivity" />
-        <activity android:name=".CommentsActivity" />
+        <activity android:name="com.blogging.profesia.blogapp.NewPostActivity" />
+        <activity android:name="com.blogging.profesia.blogapp.CommentsActivity" />
     </application>
 
 </manifest>

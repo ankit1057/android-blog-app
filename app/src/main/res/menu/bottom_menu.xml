@@ -8,9 +8,7 @@
     <item
         android:id="@+id/bottom_add"
         android:icon="@mipmap/action_add_post" />
-    <item
-        android:id="@+id/bottom_notification"
-        android:icon="@mipmap/action_notifications" />
+
     <item
         android:id="@+id/bottom_account"
         android:icon="@mipmap/action_my_account" />
